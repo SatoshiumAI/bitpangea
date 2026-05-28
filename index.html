@@ -1,1 +1,82 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>BitPangea</title>
+
+  <meta
+    name="description"
+    content="A scarce digital supercontinent built on cryptographic permanence."
+  />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #02050a;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 24px;
+      left: 24px;
+      color: rgba(255,255,255,0.25);
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 768px) {
+      .hero-image {
+        object-position: center;
+      }
+
+      .overlay {
+        font-size: 9px;
+        left: 16px;
+        bottom: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <img
+    src="bitpangea.jpg"
+    alt="BitPangea"
+    class="hero-image"
+  />
+
+  <div class="overlay">
+    Exploratory Concept
+  </div>
+
+</body>
+</html>
