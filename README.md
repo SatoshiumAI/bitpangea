@@ -1,61 +1,56 @@
 # BitPangea
 
-*A scarce digital supercontinent built on cryptographic permanence.*
+**A Scarce Digital Supercontinent**
+
+*A persistent digital world governed by scarcity, cryptographic ownership, permanence, and neutrality.*
 
 ---
 
-## Overview
+## Vision
 
-BitPangea is an exploratory concept examining the idea of persistent digital geography governed by scarcity, ownership, sovereignty, and permanence.
+BitPangea explores what happens when digital territory itself becomes **scarce by design** — a single, unified supercontinent with a **fixed number of parcels** that cannot be expanded, duplicated, or reset.
 
-The project imagines a unified digital supercontinent composed of a finite number of parcels existing within a cryptographic framework inspired by principles of decentralized systems.
+Inspired by Bitcoin’s monetary scarcity, BitPangea applies the same principles to digital geography: **finite supply, verifiable ownership, and long-term permanence**.
 
 ---
 
 ## Core Principles
 
-* **Scarcity** — Finite by design
-* **Ownership** — Sovereign and verifiable
-* **Permanence** — Built to endure
-* **Neutrality** — No central authority
+- **Scarcity** — Finite by design (21 million parcels)
+- **Ownership** — Sovereign and cryptographically verifiable
+- **Permanence** — Built to endure across generations
+- **Neutrality** — No central authority or platform control
 
 ---
 
-## Conceptual Themes
+## The Big Question
 
-BitPangea explores ideas surrounding:
-
-* Digital frontier settlement
-* Persistent virtual geography
-* Cryptographic permanence
-* Scarce digital territory
-* Decentralized ownership systems
-* Civilization-scale digital environments
-* Long-term digital sovereignty
+> What if Bitcoin had been invented not as money, but as a world?
 
 ---
 
-## Status
+## Current Status
 
-**Exploratory Concept**
+**Exploratory Concept** — Early Stage
 
-BitPangea is currently an early-stage conceptual and philosophical exploration.
-No token, blockchain, platform, or parcel system currently exists.
+This is a philosophical and worldbuilding project. No token, blockchain implementation, or parcel system exists yet. We are in the research and conceptual phase.
 
 ---
 
-## Public Site
+## Links
 
-https://bitpangea.com
+- **Website**: [bitpangea.com](https://bitpangea.com)
+- **Manifesto** (coming soon)
+- **Discussions**: Open an issue or join the conversation
 
 ---
 
 ## Contact
 
-[contact@bitpangea.com](mailto:contact@bitpangea.com)
+For inquiries: [contact@bitpangea.com](mailto:contact@bitpangea.com)
 
 ---
 
 ## License
 
-This repository currently serves as a public-facing concept artifact and landing page.
+All conceptual materials are currently under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
