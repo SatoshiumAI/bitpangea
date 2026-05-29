@@ -8,18 +8,18 @@
 
 ## Vision
 
-BitPangea explores what happens when digital territory itself becomes **scarce by design** — a single, unified supercontinent with a **fixed number of parcels** that cannot be expanded, duplicated, or reset.
+BitPangea explores what happens when digital territory itself becomes scarce by design — a single, unified supercontinent where expansion is impossible, ownership is verifiable, and permanence is foundational.
 
-Inspired by Bitcoin’s monetary scarcity, BitPangea applies the same principles to digital geography: **finite supply, verifiable ownership, and long-term permanence**.
+Inspired by the principles of cryptographic scarcity and sovereign ownership, BitPangea examines how those ideas might apply not to money, but to geography itself.
 
 ---
 
 ## Core Principles
 
-- **Scarcity** — Finite by design (21 million parcels)
-- **Ownership** — Sovereign and cryptographically verifiable
-- **Permanence** — Built to endure across generations
-- **Neutrality** — No central authority or platform control
+* **Scarcity** — Finite by design
+* **Ownership** — Sovereign and cryptographically verifiable
+* **Permanence** — Built to endure across generations
+* **Neutrality** — No central authority or platform control
 
 ---
 
@@ -31,26 +31,32 @@ Inspired by Bitcoin’s monetary scarcity, BitPangea applies the same principles
 
 ## Current Status
 
-**Exploratory Concept** — Early Stage
+**Exploratory Concept — Early Stage**
 
-This is a philosophical and worldbuilding project. No token, blockchain implementation, or parcel system exists yet. We are in the research and conceptual phase.
+BitPangea currently exists as a conceptual research and worldbuilding project.
+
+No token, blockchain implementation, parcel registry, virtual world, ownership system, or digital economy currently exists.
+
+The project is focused on exploring ideas related to scarcity, sovereignty, permanence, digital geography, and long-term civilization design.
 
 ---
 
 ## Links
 
-- **Website**: [bitpangea.com](https://bitpangea.com)
-- **Manifesto** (coming soon)
-- **Discussions**: Open an issue or join the conversation
+* **Website:** https://bitpangea.com
+* **Manifesto:** Coming Soon
+* **Discussions:** Open an issue or join the conversation
 
 ---
 
 ## Contact
 
-For inquiries: [contact@bitpangea.com](mailto:contact@bitpangea.com)
+[contact@bitpangea.com](mailto:contact@bitpangea.com)
 
 ---
 
-## License
+## Notes
 
-All conceptual materials are currently under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+BitPangea is an exploratory concept intended to investigate how scarcity, ownership, permanence, and neutrality might shape a persistent digital civilization.
+
+All ideas, structures, and future directions remain subject to exploration and revision.
