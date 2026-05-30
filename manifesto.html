@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,10 +6,10 @@
 
   <title>BitPangea Manifesto</title>
 
-<meta
- name="description"
- content="The BitPangea Manifesto — A scarce digital supercontinent built on cryptographic permanence."
-/>
+  <meta
+    name="description"
+    content="The BitPangea Manifesto — A scarce digital supercontinent built on cryptographic permanence."
+  />
 
   <style>
     * {
@@ -24,32 +23,66 @@
       width: 100%;
       min-height: 100%;
       background: #02050a;
-      color: #d6d6d6;
+      color: #ffffff;
       font-family: Arial, Helvetica, sans-serif;
     }
 
     body {
+      position: relative;
+      line-height: 1.75;
+      overflow-x: hidden;
+      background: #02050a;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(
+          rgba(2, 5, 10, 0.74),
+          rgba(2, 5, 10, 0.86)
+        ),
+        url("./bitpangea.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 1;
+      z-index: -2;
+      pointer-events: none;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
       background:
-        radial-gradient(circle at 70% 10%, rgba(0, 200, 255, 0.08), transparent 35%),
-        radial-gradient(circle at 20% 30%, rgba(212, 169, 56, 0.08), transparent 30%),
-        #02050a;
-      line-height: 1.7;
+        radial-gradient(circle at 75% 12%, rgba(0, 200, 215, 0.10), transparent 34%),
+        radial-gradient(circle at 18% 18%, rgba(212, 169, 56, 0.10), transparent 32%),
+        linear-gradient(90deg, rgba(0,0,0,.58), rgba(0,0,0,.24), rgba(0,0,0,.62));
+      z-index: -1;
+      pointer-events: none;
     }
 
     .topbar {
-      width: 100%;
-      padding: 28px 42px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 86px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 1px solid rgba(212, 169, 56, 0.18);
-      background: rgba(2, 5, 10, 0.82);
-      backdrop-filter: blur(10px);
+      padding: 0 42px;
+      background: rgba(0, 0, 0, 0.76);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(212, 169, 56, 0.14);
+      z-index: 1000;
     }
 
     .brand {
-      text-decoration: none;
       color: #ffffff;
+      text-decoration: none;
       letter-spacing: 9px;
       font-size: 24px;
       font-weight: 400;
@@ -60,27 +93,43 @@
       display: block;
       margin-top: 4px;
       color: #d4a938;
-      font-size: 12px;
+      font-size: 11px;
       letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    .nav {
+      display: flex;
+      gap: 28px;
     }
 
     .nav a {
-      color: #d4a938;
+      color: rgba(212, 169, 56, 0.9);
       text-decoration: none;
-      margin-left: 24px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
       font-size: 12px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      transition: all .25s ease;
     }
 
     .nav a:hover {
-      opacity: 0.75;
+      color: #ffffff;
+      text-shadow: 0 0 12px rgba(212, 169, 56, 0.65);
+    }
+
+    .page {
+      width: 100%;
+      padding: 150px 28px 90px;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 930px;
       margin: 0 auto;
-      padding: 90px 28px 80px;
+      padding: 54px 58px 64px;
+      background: rgba(0, 0, 0, 0.46);
+      border: 1px solid rgba(212, 169, 56, 0.16);
+      box-shadow: 0 0 60px rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(4px);
     }
 
     .eyebrow {
@@ -88,39 +137,50 @@
       letter-spacing: 4px;
       text-transform: uppercase;
       font-size: 12px;
-      margin-bottom: 18px;
+      margin-bottom: 20px;
     }
 
     h1 {
       color: #ffffff;
-      font-size: clamp(40px, 7vw, 72px);
+      font-size: clamp(42px, 7vw, 74px);
       line-height: 1.05;
-      letter-spacing: 6px;
+      letter-spacing: 7px;
       text-transform: uppercase;
-      margin-bottom: 18px;
+      margin-bottom: 20px;
+      text-shadow: 0 0 22px rgba(0, 0, 0, 0.9);
     }
 
     .subtitle {
       color: #d4a938;
       font-size: 20px;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
       text-transform: uppercase;
-      margin-bottom: 42px;
+      margin-bottom: 40px;
+    }
+
+    .divider {
+      width: 58px;
+      height: 2px;
+      background: #d4a938;
+      margin: 34px 0 44px;
+      box-shadow: 0 0 14px rgba(212, 169, 56, 0.65);
     }
 
     h2 {
-      margin-top: 56px;
-      margin-bottom: 18px;
+      margin-top: 62px;
+      margin-bottom: 20px;
       color: #ffffff;
       font-size: 24px;
-      letter-spacing: 3px;
+      letter-spacing: 4px;
       text-transform: uppercase;
+      text-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
     }
 
     p {
       margin-bottom: 22px;
-      color: #b7c1cc;
+      color: #ffffff;
       font-size: 17px;
+      text-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
     }
 
     strong {
@@ -128,60 +188,58 @@
     }
 
     ul {
-      margin: 20px 0 32px 22px;
+      margin: 22px 0 34px 22px;
     }
 
     li {
       margin-bottom: 14px;
-      color: #b7c1cc;
+      color: #ffffff;
       font-size: 17px;
+      text-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
     }
 
     blockquote {
-      margin: 40px 0;
+      margin: 42px 0;
       padding: 28px 34px;
       border-left: 3px solid #d4a938;
-      background: rgba(212, 169, 56, 0.06);
+      background: rgba(0, 0, 0, 0.48);
       color: #ffffff;
-      font-size: 24px;
+      font-size: 23px;
       line-height: 1.5;
       letter-spacing: 1px;
-    }
-
-    .divider {
-      width: 56px;
-      height: 2px;
-      background: #d4a938;
-      margin: 34px 0 44px;
+      box-shadow: 0 0 24px rgba(0, 0, 0, 0.42);
     }
 
     .status {
-      margin-top: 60px;
-      padding: 20px 24px;
-      border: 1px solid rgba(212, 169, 56, 0.35);
+      margin-top: 58px;
+      padding: 18px 24px;
+      border: 1px solid rgba(212, 169, 56, 0.38);
       color: #d4a938;
       letter-spacing: 2px;
       text-transform: uppercase;
       font-size: 12px;
       display: inline-block;
+      background: rgba(0, 0, 0, 0.35);
     }
 
     footer {
-      padding: 36px 28px;
+      padding: 34px 24px;
       text-align: center;
-      color: rgba(214, 214, 214, 0.45);
-      font-size: 12px;
+      color: rgba(255, 255, 255, 0.45);
+      font-size: 11px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      border-top: 1px solid rgba(212, 169, 56, 0.12);
+      border-top: 1px solid rgba(212, 169, 56, 0.14);
+      background: rgba(0, 0, 0, 0.72);
     }
 
     @media (max-width: 768px) {
       .topbar {
-        padding: 22px 24px;
+        height: auto;
+        padding: 20px 24px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 18px;
+        gap: 16px;
       }
 
       .brand {
@@ -189,17 +247,47 @@
         letter-spacing: 6px;
       }
 
+      .brand span {
+        font-size: 10px;
+        letter-spacing: 3px;
+      }
+
+      .nav {
+        gap: 18px;
+      }
+
       .nav a {
-        margin-left: 0;
-        margin-right: 20px;
+        font-size: 10px;
+        letter-spacing: 2px;
+      }
+
+      .page {
+        padding: 150px 16px 60px;
       }
 
       .container {
-        padding-top: 60px;
+        padding: 36px 24px 46px;
+      }
+
+      h1 {
+        letter-spacing: 4px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+      }
+
+      blockquote {
+        font-size: 19px;
+        padding: 22px 24px;
       }
     }
   </style>
-
 </head>
 
 <body>
@@ -210,114 +298,110 @@
       <span>A Digital Supercontinent</span>
     </a>
 
-```
-<nav class="nav">
-  <a href="/">Home</a>
-  <a href="/manifesto.html">Manifesto</a>
-</nav>
-```
-
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/manifesto.html">Manifesto</a>
+    </nav>
   </header>
 
-  <main class="container">
-    <div class="eyebrow">Version 1.0 · May 2026</div>
+  <main class="page">
+    <article class="container">
+      <div class="eyebrow">Version 1.0 · May 2026</div>
 
-```
-<h1>BitPangea Manifesto</h1>
+      <h1>BitPangea<br>Manifesto</h1>
 
-<div class="subtitle">A Scarce Digital Supercontinent</div>
+      <div class="subtitle">A Scarce Digital Supercontinent</div>
 
-<div class="divider"></div>
+      <div class="divider"></div>
 
-<p>We stand at the edge of a new frontier.</p>
+      <p>We stand at the edge of a new frontier.</p>
 
-<p>For the first time in history, humanity has the ability to create entire worlds from pure code. Yet almost every digital world we have built so far has been defined by abundance without limit — infinite land, temporary ownership, and centralized control.</p>
+      <p>For the first time in history, humanity has the ability to create entire worlds from pure code. Yet almost every digital world we have built so far has been defined by abundance without limit — infinite land, temporary ownership, and centralized control.</p>
 
-<p>BitPangea proposes a different path.</p>
+      <p>BitPangea proposes a different path.</p>
 
-<p>We envision a single, unified digital supercontinent where territory is scarce by design. A persistent world with a fixed number of parcels — governed not by corporations or administrators, but by cryptographic rules that cannot be changed on a whim.</p>
+      <p>We envision a single, unified digital supercontinent where territory is scarce by design. A persistent world with a fixed number of parcels — governed not by corporations or administrators, but by cryptographic rules that cannot be changed on a whim.</p>
 
-<p>Just as Bitcoin introduced scarcity to digital money, BitPangea seeks to introduce scarcity to digital geography.</p>
+      <p>Just as Bitcoin introduced scarcity to digital money, BitPangea seeks to introduce scarcity to digital geography.</p>
 
-<h2>The Core Idea</h2>
+      <h2>The Core Idea</h2>
 
-<p>BitPangea is not being designed primarily as a game, metaverse, or speculative land project.</p>
+      <p>BitPangea is not being designed primarily as a game, metaverse, or speculative land project.</p>
 
-<p>It is an exploration of what happens when digital land becomes finite, verifiable, and permanent.</p>
+      <p>It is an exploration of what happens when digital land becomes finite, verifiable, and permanent.</p>
 
-<ul>
-  <li><strong>Scarcity:</strong> There will never be more than a fixed number of parcels.</li>
-  <li><strong>Ownership:</strong> True cryptographic sovereignty — you own it, not rent it.</li>
-  <li><strong>Permanence:</strong> The world is built to endure across generations, not dependent on any single company or server.</li>
-  <li><strong>Neutrality:</strong> No central authority dictates who can participate or how the world evolves.</li>
-</ul>
+      <ul>
+        <li><strong>Scarcity:</strong> There will never be more than a fixed number of parcels.</li>
+        <li><strong>Ownership:</strong> True cryptographic sovereignty — you own it, not rent it.</li>
+        <li><strong>Permanence:</strong> The world is built to endure across generations, not dependent on any single company or server.</li>
+        <li><strong>Neutrality:</strong> No central authority dictates who can participate or how the world evolves.</li>
+      </ul>
 
-<h2>Why Scarcity Matters</h2>
+      <h2>Why Scarcity Matters</h2>
 
-<p>When land is infinite, it becomes meaningless.</p>
+      <p>When land is infinite, it becomes meaningless.</p>
 
-<p>When land is scarce, every parcel carries history, value, and consequence.</p>
+      <p>When land is scarce, every parcel carries history, value, and consequence.</p>
 
-<p>Scarcity forces civilization. It demands cooperation, creativity, stewardship, and long-term thinking. It transforms digital space from disposable pixels into something closer to real territory — a place where culture, economy, and identity can take root and mature over decades.</p>
+      <p>Scarcity forces civilization. It demands cooperation, creativity, stewardship, and long-term thinking. It transforms digital space from disposable pixels into something closer to real territory — a place where culture, economy, and identity can take root and mature over decades.</p>
 
-<h2>A Shared Frontier</h2>
+      <h2>A Shared Frontier</h2>
 
-<p>BitPangea is imagined as one supercontinent — not thousands of disconnected islands.</p>
+      <p>BitPangea is imagined as one supercontinent — not thousands of disconnected islands.</p>
 
-<p>This unity is intentional. It symbolizes a shared digital reality where participants must coexist, negotiate, and build within the same bounded world.</p>
+      <p>This unity is intentional. It symbolizes a shared digital reality where participants must coexist, negotiate, and build within the same bounded world.</p>
 
-<p>Pangea represents a beginning. A single landmass before fragmentation.</p>
+      <p>Pangea represents a beginning. A single landmass before fragmentation.</p>
 
-<p>We ask:</p>
+      <p>We ask:</p>
 
-<blockquote>
-  What kind of civilization might emerge if we began digital history with the same constraint?
-</blockquote>
+      <blockquote>
+        What kind of civilization might emerge if we began digital history with the same constraint?
+      </blockquote>
 
-<h2>Beyond Speculation</h2>
+      <h2>Beyond Speculation</h2>
 
-<p>While economic activity will naturally arise, BitPangea is not primarily about financial speculation.</p>
+      <p>While economic activity will naturally arise, BitPangea is not primarily about financial speculation.</p>
 
-<p>It is about exploring deeper questions:</p>
+      <p>It is about exploring deeper questions:</p>
 
-<ul>
-  <li>What forms of governance emerge when land cannot be printed?</li>
-  <li>What kind of culture develops when territory is permanent?</li>
-  <li>How do identity, community, and innovation evolve under real digital scarcity?</li>
-  <li>Can we build digital institutions meant to last centuries?</li>
-</ul>
+      <ul>
+        <li>What forms of governance emerge when land cannot be printed?</li>
+        <li>What kind of culture develops when territory is permanent?</li>
+        <li>How do identity, community, and innovation evolve under real digital scarcity?</li>
+        <li>Can we build digital institutions meant to last centuries?</li>
+      </ul>
 
-<h2>An Open Exploration</h2>
+      <h2>An Open Exploration</h2>
 
-<p>BitPangea begins as an idea — an open invitation to thinkers, builders, philosophers, and dreamers.</p>
+      <p>BitPangea begins as an idea — an open invitation to thinkers, builders, philosophers, and dreamers.</p>
 
-<p>No blockchain has been chosen.</p>
+      <p>No blockchain has been chosen.</p>
 
-<p>No token has been issued.</p>
+      <p>No token has been issued.</p>
 
-<p>No parcels have been allocated.</p>
+      <p>No parcels have been allocated.</p>
 
-<p>This is deliberate.</p>
+      <p>This is deliberate.</p>
 
-<p>We choose to move slowly and think deeply. The rules, mechanisms, and technical foundation must be worthy of the vision. We invite rigorous discussion, criticism, and contribution from those who share a long-term orientation toward digital civilization.</p>
+      <p>We choose to move slowly and think deeply. The rules, mechanisms, and technical foundation must be worthy of the vision. We invite rigorous discussion, criticism, and contribution from those who share a long-term orientation toward digital civilization.</p>
 
-<h2>The Question That Defines Us</h2>
+      <h2>The Question That Defines Us</h2>
 
-<blockquote>
-  What if Bitcoin had been invented not as money, but as a world?
-</blockquote>
+      <blockquote>
+        What if Bitcoin had been invented not as money, but as a world?
+      </blockquote>
 
-<p>This is BitPangea.</p>
+      <p>This is BitPangea.</p>
 
-<p>A scarce digital supercontinent.</p>
+      <p>A scarce digital supercontinent.</p>
 
-<p>Built on cryptographic permanence.</p>
+      <p>Built on cryptographic permanence.</p>
 
-<p>Open to all who value sovereignty, stewardship, and the long arc of digital history.</p>
+      <p>Open to all who value sovereignty, stewardship, and the long arc of digital history.</p>
 
-<div class="status">Exploratory Concept · Early Stage</div>
-```
-
+      <div class="status">Exploratory Concept · Early Stage</div>
+    </article>
   </main>
 
   <footer>
