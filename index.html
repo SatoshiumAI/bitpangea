@@ -88,18 +88,73 @@ body{
         bottom:16px;
     }
 }
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 42px;
+  background: rgba(0,0,0,0.76);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(212,169,56,0.14);
+  z-index: 1000;
+}
+
+.brand {
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 9px;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.brand span {
+  display: block;
+  margin-top: 4px;
+  color: #d4a938;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+}
+
+.nav a {
+  color: rgba(212,169,56,0.9);
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+    
 </style>
 </head>
 
 <body>
 
-<nav class="top-nav">
-      <a href="/">The World</a>
-      <a href="/thecharter/">The Charter</a>
-      <a href="/thechronicle/">The Chronicle</a>
-      <a href="/thecommons/">The Commons</a>
-      <a href="/thefrontieroffice/">The Frontier Office</a>
-    </nav>
+<header class="topbar">
+  <a class="brand" href="/">
+    BITPANGEA
+    <span>A Digital Supercontinent</span>
+  </a>
+
+  <nav class="nav">
+    <a href="/">The World</a>
+    <a href="/thecharter/">The Charter</a>
+    <a href="/thechronicle/">The Chronicle</a>
+    <a href="/thecommons/">The Commons</a>
+    <a href="/thefrontieroffice/">The Frontier Office</a>
+  </nav>
+</header>
 
 <img src="./images/bitpangea.jpg" alt="BitPangea" class="hero-image">
 
