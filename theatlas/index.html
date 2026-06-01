@@ -144,10 +144,10 @@
     }
 
     .divider {
-      width: 58px;
+      width: 64px;
       height: 2px;
       background: #d4a938;
-      margin: 34px 0 44px;
+      margin: 34px 0 42px;
       box-shadow: 0 0 14px rgba(212, 169, 56, 0.65);
     }
 
@@ -156,6 +156,14 @@
       color: #ffffff;
       font-size: 17px;
       text-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+    }
+
+    .atlas-statement {
+      font-size: 24px;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 28px;
+      text-shadow: 0 0 18px rgba(212,169,56,.25);
     }
 
     h2 {
@@ -179,68 +187,25 @@
 
     strong { color: #ffffff; }
 
-    .map-placeholder {
-      margin: 44px 0 56px;
-      min-height: 420px;
+    .image-frame {
+      margin: 44px auto 56px;
+      max-width: 860px;
       border: 1px solid rgba(212, 169, 56, 0.35);
-      background:
-        radial-gradient(circle at center, rgba(212, 169, 56, 0.08), rgba(0, 0, 0, 0.30) 52%, rgba(0,0,0,0.50)),
-        rgba(0, 0, 0, 0.36);
-      box-shadow: 0 0 26px rgba(0, 0, 0, 0.35);
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      background: rgba(0, 0, 0, 0.36);
+      padding: 24px;
       text-align: center;
-      padding: 34px;
-      position: relative;
       overflow: hidden;
     }
 
-    .map-placeholder::before {
-      content: "";
-      position: absolute;
-      width: 260px;
-      height: 260px;
-      border: 1px solid rgba(212, 169, 56, 0.22);
-      border-radius: 50%;
-      box-shadow: 0 0 40px rgba(212, 169, 56, 0.10);
+    .image-frame img {
+      width: 100%;
+      max-width: 760px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
     }
 
-    .map-placeholder span {
-      position: relative;
-      color: rgba(255, 255, 255, 0.58);
-      font-size: 20px;
-      letter-spacing: 1px;
-      line-height: 1.7;
-      text-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
-    }
-
-.image-frame {
-  margin: 44px auto 56px;
-  max-width: 860px;
-  border: 1px solid rgba(212, 169, 56, 0.35);
-  background: rgba(0, 0, 0, 0.36);
-  padding: 24px;
-  text-align: center;
-  overflow: hidden;
-}
-
-.image-frame img {
-  width: 100%;
-  max-width: 760px;
-  height: auto;
-  display: block;
-  margin: 0 auto 18px;
-  border-radius: 8px;
-}
-
-.atlas-statement {
-  font-size: 24px;
-  font-weight: 600;
-  color: #ffffff;
-  margin-bottom: 28px;
-  text-shadow: 0 0 18px rgba(212,169,56,.25);
-    
     .atlas-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -268,33 +233,12 @@
       margin-bottom: 0;
     }
 
-    .quote {
-      margin-top: 56px;
-      padding: 28px 34px;
-      border-left: 3px solid #d4a938;
-      background: rgba(0, 0, 0, 0.42);
-      color: #ffffff;
-      font-size: 22px;
-      line-height: 1.5;
-      letter-spacing: 1px;
-    }
-
-.divider {
-      width: 64px;
-      height: 2px;
-      background: var(--gold);
-      margin: 34px 0 42px;
-      box-shadow: 0 0 14px rgba(212, 169, 56, 0.65);
-    }
-
-
-
- blockquote {
+    blockquote {
       margin: 36px 0;
       padding: 30px 36px;
-      border-left: 3px solid var(--gold);
+      border-left: 3px solid #d4a938;
       background: rgba(0, 0, 0, 0.52);
-      color: var(--white);
+      color: #ffffff;
       font-size: 25px;
       line-height: 1.45;
       letter-spacing: 1px;
@@ -303,13 +247,13 @@
 
     .quote-label {
       display: block;
-      color: var(--cyan);
+      color: #00c8d7;
       font-size: 11px;
       letter-spacing: 3px;
       text-transform: uppercase;
       margin-bottom: 12px;
     }
-  
+
     .note {
       margin-top: 58px;
       padding: 18px 24px;
@@ -357,10 +301,10 @@
       h1 { letter-spacing: 4px; }
       h2 { font-size: 23px; letter-spacing: 3px; }
       .subtitle { font-size: 16px; }
+      .atlas-statement { font-size: 19px; }
       p, li { font-size: 16px; }
-      .map-placeholder { min-height: 320px; padding: 24px; }
-      .map-placeholder span { font-size: 17px; }
-      .quote { font-size: 19px; padding: 22px 24px; }
+      .image-frame { padding: 18px; }
+      blockquote { font-size: 20px; padding: 24px 26px; }
     }
   </style>
 </head>
@@ -393,20 +337,18 @@
 
       <div class="divider"></div>
 
-      <p class="atlas-statement">
-  One unified supercontinent. One finite world. 21 million parcels.
-</p>
+      <p class="atlas-statement">One unified supercontinent. One finite world. 21 million parcels.</p>
 
       <p>The Atlas will become the canonical cartographic home of BitPangea: the place where the shape, boundaries, parcel logic, and geographic memory of the digital supercontinent are explored over time.</p>
-      
-   
-     <div class="image-frame">
-       <img
-src="/images/BitPangea-theatlas.jpg"
-alt="BitPangea The Atlas full image">
+
+      <div class="image-frame">
+        <img
+          src="/images/BitPangea-theatlas.jpg"
+          alt="BitPangea The Atlas full image"
+        />
       </div>
 
-     <h2>The Founding Constraint</h2>
+      <h2>The Founding Constraint</h2>
 
       <p>BitPangea consists of a single, bounded digital supercontinent. The total number of parcels is fixed at 21 million. There shall be no expansion, no duplication, and no central authority with the power to alter the map.</p>
 
@@ -446,12 +388,10 @@ alt="BitPangea The Atlas full image">
         <li>Designed for long-term civilization building</li>
       </ul>
 
-     <div class="divider"></div>
-
-        <blockquote>
-          <span class="quote-label">Foundational Permanence</span>
-          Before ownership can be claimed, the world must first be mapped.
-        </blockquote>
+      <blockquote>
+        <span class="quote-label">Foundational Permanence</span>
+        Before ownership can be claimed, the world must first be mapped.
+      </blockquote>
 
       <div class="note">Exploratory Concept · Early Stage</div>
     </article>
