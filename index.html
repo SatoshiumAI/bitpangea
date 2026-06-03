@@ -420,6 +420,54 @@ h1 .smaller {
       .status {
         display: none;
       }
+
+.bp-footer {
+    margin-top: 120px;
+    padding: 60px 40px;
+    text-align: center;
+    border-top: 1px solid rgba(255,191,0,.15);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    color: #d4a017;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+.footer-divider {
+    width: 120px;
+    height: 1px;
+    background: rgba(212,160,23,.35);
+    margin: 24px auto;
+}
+
+.footer-notice {
+    color: rgba(255,255,255,.65);
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-copy {
+    color: rgba(255,255,255,.45);
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+      
     }
   </style>
 </head>
@@ -507,4 +555,28 @@ DIGITAL<br>
 
   <div class="status">Digital Civilization Experiment</div>
 </body>
+
+  <footer class="bp-footer">
+    <div class="footer-links">
+        <a href="/">The World</a>
+        <a href="/atlas/">The Atlas</a>
+        <a href="/charter/">The Charter</a>
+        <a href="/chronicle/">The Chronicle</a>
+        <a href="/commons/">The Commons</a>
+        <a href="/frontier-office/">The Frontier Office</a>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-notice">
+        <p>BitPangea is an exploratory concept.</p>
+        <p>No parcels exist. No allocations exist. No token exists.</p>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-copy">
+        © 2026 BitPangea · Built on Cryptographic Permanence
+    </div>
+</footer>
 </html>
