@@ -1,4 +1,19 @@
 # Codex Entry I
+---
+
+## Record Status
+
+Status: Adopted
+
+Constitutional Review: Completed
+
+Review Participants:
+
+- OpenAI ChatGPT
+- Anthropic Claude
+- xAI Grok
+
+---
 
 ## The Parcel
 
@@ -119,4 +134,4 @@ Yet the parcel remains the same parcel.
 
 ---
 
-**End of Codex Entry I**
+**Codex I Adopted — June 15, 2026**
