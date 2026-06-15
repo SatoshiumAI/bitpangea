@@ -104,7 +104,7 @@ Third — Lot 0 creates an undisclosed exception (minor but worth noting). The e
 ________________________________________
 
 7. Recommendation
-8. 
+
 Adoption with modifications.
 
 The entry is philosophically strong, tonally appropriate, and ready in most respects. The core definition, the five immutable properties, and Principles 1, 2, 3, and 5 are sound. The document should not be rejected, and it does not need to be substantially rewritten.
