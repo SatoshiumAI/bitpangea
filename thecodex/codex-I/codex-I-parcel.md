@@ -1,6 +1,12 @@
 # Codex Entry I
 ---
 
+## The Parcel
+
+**Date:** June 15, 2026
+
+---
+
 ## Record Status
 
 Status: Adopted
@@ -12,12 +18,6 @@ Review Participants:
 - OpenAI ChatGPT
 - Anthropic Claude
 - xAI Grok
-
----
-
-## The Parcel
-
-**Date:** June 15, 2026
 
 ---
 
