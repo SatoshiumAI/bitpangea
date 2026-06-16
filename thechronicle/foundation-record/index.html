@@ -141,11 +141,13 @@
       transition: all .25s ease;
     }
 
-    .nav a:hover {
-      color: #ffffff;
-      text-shadow: 0 0 12px rgba(212, 169, 56, 0.65);
-    }
-
+    .nav a.active,
+.nav a[aria-current="page"] {
+ color: #ffffff;
+ border-bottom: 1px solid rgba(212, 169, 56, 0.95);
+ padding-bottom: 4px;
+ text-shadow: 0 0 12px rgba(212, 169, 56, 0.65);
+}
     .page { width: 100%; padding: 150px 28px 90px; }
 
     .container {
@@ -366,7 +368,7 @@
       <a href="../">The World</a>
       <a href="https://bitpangea.com/theatlas/">The Atlas</a>
       <a href="https://bitpangea.com/thecharter/">The Charter</a>
-      <a href="https://bitpangea.com/thechronicle/">The Chronicle</a>
+      <a href="https://bitpangea.com/thechronicle/" class="active" aria-current="page">The Chronicle</a>
       <a href="https://bitpangea.com/thecommons/">The Commons</a>
       <a href="https://bitpangea.com/thefrontieroffice/">The Frontier Office</a>
     </nav>
