@@ -20,7 +20,7 @@ Without plurality, there can be no supercontinent.
 
 ## Formal Definition
 
-A Boundary is the cartographic distinction that separates one parcel from another within the BitPangea supercontinent.
+A Boundary is the cartographic distinction that distinguishes one parcel from another within the BitPangea supercontinent.
 
 A boundary is a property of the world's structure rather than a property of any individual parcel.
 
@@ -44,7 +44,7 @@ A boundary exists independently of ownership, discovery, settlement, development
 
 ### Permanence
 
-Once established within the canonical structure of the world, a boundary cannot be arbitrarily erased or relocated.
+Once established within the canonical structure of the world, a boundary cannot be erased or relocated.
 
 ### Neutrality
 
@@ -95,7 +95,7 @@ Distinction precedes participation.
 
 ### 3. A Boundary Is Not a Claim
 
-A boundary separates parcels.
+A boundary establishes distinction between parcels.
 
 It does not determine who may claim, steward, govern, inhabit, or use them.
 
