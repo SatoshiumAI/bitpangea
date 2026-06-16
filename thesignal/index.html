@@ -157,10 +157,14 @@
       white-space: nowrap;
     }
 
-    .nav a:hover {
-      color: var(--white);
-      text-shadow: 0 0 12px rgba(212, 169, 56, 0.65);
-    }
+    .nav a.active,
+.nav a[aria-current="page"] {
+ color: #ffffff;
+ border-bottom: 1px solid rgba(212, 169, 56, 0.95);
+ padding-bottom: 4px;
+ text-shadow: 0 0 12px rgba(212, 169, 56, 0.65);
+}
+
 
     .page {
       width: 100%;
@@ -410,7 +414,7 @@
     </a>
 
     <nav class="nav">
-      <a href="/">The World</a>
+      <a href="/" class="active" aria-current="page">The World</a>
       <a href="/theatlas/">The Atlas</a>
       <a href="/thecharter/">The Charter</a>
       <a href="/thechronicle/">The Chronicle</a>
