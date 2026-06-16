@@ -164,9 +164,14 @@ letter-spacing:3px;
 text-transform:uppercase;
 }
 
-.nav a:hover{
-color:white;
+.nav a.active,
+.nav a[aria-current="page"] {
+ color: #ffffff;
+ border-bottom: 1px solid rgba(212, 169, 56, 0.95);
+ padding-bottom: 4px;
+ text-shadow: 0 0 12px rgba(212, 169, 56, 0.65);
 }
+
 
 .page{
 padding:150px 24px 80px;
@@ -385,7 +390,7 @@ BITPANGEA
       <a href="../thecharter/">The Charter</a>
       <a href="../thechronicle/">The Chronicle</a>
       <a href="../thecommons/">The Commons</a>
-      <a href="../thefrontieroffice/">The Frontier Office</a>
+      <a href="../thefrontieroffice/" class="active" aria-current="page">The Frontier Office</a>
     </nav>
 
 </header>
