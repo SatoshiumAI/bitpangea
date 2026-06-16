@@ -30,7 +30,7 @@ Each boundary possesses the following immutable properties:
 
 A boundary exists to differentiate one parcel from another.
 
-Its primary function is separation through identity rather than ownership, governance, or use.
+Its primary function is distinction through identity rather than ownership, governance, or use.
 
 ### Necessity
 
