@@ -1,62 +1,35 @@
 # BitPangea
 
-**A Scarce Digital Supercontinent**
+## Historical Repository
 
-*A persistent digital world governed by scarcity, cryptographic ownership, permanence, and neutrality.*
+This repository is preserved as part of the historical development record of BitPangea within the SatoshiumAI organization.
 
----
-
-## Vision
-
-BitPangea explores what happens when digital territory itself becomes scarce by design — a single, unified supercontinent where expansion is impossible, ownership is verifiable, and permanence is foundational.
-
-Inspired by the principles of cryptographic scarcity and sovereign ownership, BitPangea examines how those ideas might apply not to money, but to geography itself.
+BitPangea has since moved to its own dedicated organization and this repository is no longer actively maintained.
 
 ---
 
-## Core Principles
+## Active Repository
 
-* **Scarcity** — Finite by design
-* **Ownership** — Sovereign and cryptographically verifiable
-* **Permanence** — Built to endure across generations
-* **Neutrality** — No central authority or platform control
+For current development, documentation, constitutional records, and project updates, please visit:
 
----
-
-## The Big Question
-
-> What if Bitcoin had been invented not as money, but as a world?
+**https://github.com/BitPangea/bitpangea**
 
 ---
 
-## Current Status
+## Website
 
-**Exploratory Concept — Early Stage**
-
-BitPangea currently exists as a conceptual research and worldbuilding project.
-
-No token, blockchain implementation, parcel registry, virtual world, ownership system, or digital economy currently exists.
-
-The project is focused on exploring ideas related to scarcity, sovereignty, permanence, digital geography, and long-term civilization design.
+**https://bitpangea.com**
 
 ---
 
-## Links
+## Historical Context
 
-* **Website:** https://bitpangea.com
-* **Manifesto:** Coming Soon
-* **Discussions:** Open an issue or join the conversation
+This repository remains publicly available as part of the historical record documenting the early development of BitPangea.
 
----
+The contents preserved here may not reflect the current structure, architecture, documentation, or constitutional framework of the active project.
 
-## Contact
-
-[contact@bitpangea.com](mailto:contact@bitpangea.com)
+For the most current version of BitPangea, always refer to the BitPangea organization repository.
 
 ---
 
-## Notes
-
-BitPangea is an exploratory concept intended to investigate how scarcity, ownership, permanence, and neutrality might shape a persistent digital civilization.
-
-All ideas, structures, and future directions remain subject to exploration and revision.
+> The world exists. The map follows.
